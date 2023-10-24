@@ -40,6 +40,7 @@ Please be aware that the demos may exhibit significant accessibility issues, suc
   - [Dog Box Animation](#dog-box-animation)
   - [Dropdown Menu](#dropdown-menu)
   - [Dynamic Image Colorizing](#dynamic-image-colorizing)
+  - [Enable dark mode](#Enable-dark-mode)
   - [Fancy Menu](#fancy-menu)
   - [Flip on click](#flip-on-click)
   - [Floating label on Textfield](#floating-label-on-textfield)

@@ -4,29 +4,8 @@
   <meta charset="UTF-8">
   <title>CodePen - Retro-futuristic grid background in CSS?</title>
   <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="overlay"><h1>CSS background</h1></div>
-<div id="hey"><div id="layer-up"></div></div>
-<div id="layer-0">
-	
-	<div id="layer-1">
-		<div id="layer-2">
-			<div id="lines">
-				<div id="layer-corner"></div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="mtnZZZ"></div>
-<!-- partial -->
-  
-</body>
-</html>
-<!--stye sheet has to be created for this or you can incude it in the html also  -->
+	<style>
+		/*stye sheet has to be created for this or you can incude it in the html also*/
 body {
 	background: radial-gradient(ellipse at center, rgba(127,0,173,0.6) 0%,
   rgba(0,0,0,0.8) 60%, 
@@ -61,7 +40,7 @@ h1 {
 	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1)) 25%, rgba(255,71,255,1) 100%);
 	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,71,255,1) 100%);
 	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,71,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c47ff', endColorstr='#ff47ff', GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c47ff', endColorstr='#ff47ff', GradientType=0);
 	height:400px;
 	width:200vw;
 	opacity:1;
@@ -217,3 +196,26 @@ h1 {
 		height: 540px;
 	}
 }
+	</style>
+</head>
+<body>
+<!--partial:index.partial.html-->
+<div id="overlay"><h1>CSS background</h1></div>
+<div id="hey"><div id="layer-up"></div></div>
+<div id="layer-0">
+	
+	<div id="layer-1">
+		<div id="layer-2">
+			<div id="lines">
+				<div id="layer-corner"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="mtnZZZ"></div>
+<!--partial--> 
+</body>
+</html>
+
+

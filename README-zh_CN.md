@@ -48,6 +48,7 @@
 1. [涟漪效应](#RippleEffect)
 1. [响应计数器 # 显示不适合屏幕的物品](#ResponsiveItemShowcase)
 1. [Neumorphism风格的卡片设计](#neumorphism-card-design)
+1. [深色模式/改變明暗](#DarkMode) 
 
 
 ## <a id="Accordion"></a>手风琴 / 切换
@@ -284,6 +285,15 @@
 ## <a id="NeumorphismCardDesign"></a>Neumorphism风格的卡片设计
 
 [<img src="images/neumorphism-card-design.gif" title="Neumorphism Card Design">](https://codepen.io/saviomartin/pen/LYNgqKW)
+
+**[⬆ 回到顶部](#quick-links)**
+
+***
+&nbsp;
+
+## <a id="DarkMode"></a>深色模式/改變明暗
+
+[<img  src="images/darkmode.gif"  title="Enable dark mode">](https://codepen.io/marcelesilv/pen/yLjrEzz)
 
 **[⬆ 回到顶部](#quick-links)**
 
